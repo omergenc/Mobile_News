@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "sources": [
+    { "id": "medyascope", "type": "rss", "name": "Medyascope", "url": "https://medyascope.tv/feed/" },
+    { "id": "t24", "type": "rss", "name": "T24", "url": "https://t24.com.tr/rss",
+      "note": "Geliştirme ağından erişilemedi; telefonda çalışmazsa kapatın." },
+    { "id": "bianet", "type": "rss", "name": "bianet", "url": "https://bianet.org/rss/bianet" },
+    { "id": "bbc_turkce", "type": "rss", "name": "BBC Türkçe", "url": "https://feeds.bbci.co.uk/turkce/rss.xml" },
+    { "id": "dw_turkce", "type": "rss", "name": "DW Türkçe", "url": "https://rss.dw.com/rdf/rss-tur-all" },
+    { "id": "euronews_tr", "type": "rss", "name": "Euronews Türkçe", "url": "https://tr.euronews.com/rss" },
+    { "id": "voa_turkce", "type": "rss", "name": "VOA Türkçe", "enabled": false,
+      "note": "RSS adresi doğrulanmadı; voaturkce.com'daki RSS sayfasından adresi alıp 'url' alanına yazın ve açın." },
+    { "id": "diken", "type": "rss", "name": "Diken", "url": "https://www.diken.com.tr/feed/" },
+    { "id": "kisadalga", "type": "rss", "name": "Kısa Dalga", "url": "https://kisadalga.net/rss" },
+    { "id": "birgun", "type": "rss", "name": "BirGün", "url": "https://www.birgun.net/rss/home" },
+    { "id": "halktv", "type": "rss", "name": "Halk TV", "url": "https://halktv.com.tr/service/rss.php" },
+    { "id": "cumhuriyet", "type": "rss", "name": "Cumhuriyet", "url": "https://www.cumhuriyet.com.tr/rss/son_dakika.xml" },
+
+    { "id": "bloomberght", "type": "rss", "name": "Bloomberg HT", "url": "https://www.bloomberght.com/rss", "categoryHint": "EKONOMI" },
+    { "id": "ekonomim", "type": "rss", "name": "ekonomim", "url": "https://ekonomim.com/export/rss", "categoryHint": "EKONOMI" },
+
+    { "id": "fotomac_gs", "type": "rss", "name": "Fotomaç (GS)", "url": "https://www.fotomac.com.tr/rss/galatasaray.xml", "categoryHint": "SPOR", "galatasaray": true },
+    { "id": "aspor_gs", "type": "rss", "name": "A Spor (GS)", "url": "https://www.aspor.com.tr/rss/galatasaray.xml", "categoryHint": "SPOR", "galatasaray": true },
+    { "id": "ntvspor", "type": "rss", "name": "NTV Spor", "url": "https://www.ntvspor.net/rss/kategori/futbol", "categoryHint": "SPOR" },
+
+    { "id": "bsky_galatasaray", "type": "bluesky", "name": "Bluesky: Galatasaray", "query": "Galatasaray", "categoryHint": "SPOR", "galatasaray": true },
+    { "id": "bsky_ornek_hesap", "type": "bluesky", "name": "Bluesky: örnek hesap", "actor": "ornek.bsky.social", "enabled": false,
+      "note": "Takip etmek istediğiniz hesabın handle'ını 'actor' alanına yazın." },
+
+    { "id": "tg_ornek", "type": "telegram", "name": "Telegram: örnek kanal", "channel": "KANAL_ADI", "enabled": false,
+      "note": "Herkese açık kanal adı. Ayarlardan bir RSS köprüsü (ör. kendi RSSHub sunucunuz) adresi girilmeli." },
+
+    { "id": "yt_ornek", "type": "youtube", "name": "YouTube: örnek kanal", "channelId": "UCxxxxxxxxxxxxxxxxxxxxxx", "enabled": false,
+      "note": "Kanal ID'si 'UC' ile başlar. Ayarlardan YouTube Data API anahtarı girilmeli." },
+
+    { "id": "x_placeholder", "type": "x", "name": "X (sonraki sürüm)", "enabled": false },
+    { "id": "instagram_placeholder", "type": "instagram", "name": "Instagram (sonraki sürüm)", "enabled": false }
+  ]
+}
